@@ -13,8 +13,8 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
         eval "$(pyenv init -)"
     fi
 
-    pyenv install 2.7.10
-    pyenv virtualenv 2.7.10 conan
+    pyenv install 3.5
+    pyenv virtualenv 3.5 conan
     pyenv rehash
     pyenv activate conan
     
@@ -27,6 +27,6 @@ if [[ "$(uname -s)" == 'Linux' ]]; then
     CXX=$CXX_COMPILER
 fi
 
-pip3 install conan
+pip install conan
 
 conan user
