@@ -1,5 +1,6 @@
 dist: trusty
 language: cpp
+sudo: required
 
 
 install:
@@ -32,4 +33,3 @@ addons:
       - g++-5
       - g++-6
       - clang++-4.0
-      - python3
