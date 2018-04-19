@@ -1,5 +1,5 @@
 # CppConfHelloWorld
-
+[![Build Status](https://travis-ci.org/xwarior/CppConfHelloWorld.svg?branch=master)](https://travis-ci.org/xwarior/CppConfHelloWorld)
 
 ## Build instructions
 
